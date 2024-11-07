@@ -1,0 +1,106 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Full-width image */
+.image-container img {
+  width: 100%;
+  max-height: 700px;
+}
+
+/* Position the navbar absolutely over the image */
+.navbar-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  /* Semi-transparent background */
+  z-index: 10;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.card_container {
+  display: flexbox;
+}
+
+.custom-card {
+  width: 14rem;
+}
+
+.custom-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.custom-card-body {
+  background: linear-gradient(to bottom, #f9d488, #fabc30);
+  color: #000;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  max-width: 50%;
+}
+
+.rating {
+  color: black;
+  font-size: 0.9rem;
+  max-width: 50%;
+  padding-top: 1rem;
+}
+
+.add-to-cart-btn {
+  background-color: #d9534f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  max-width: 70%;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+  max-width: 100%;
+}
+
+.card_container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.center_div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  background: linear-gradient(to bottom, #f8c45c, #f9b619);
+  margin-top: 100px;
+  text-align: center;
+}
